@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -29,6 +29,7 @@ header {
 .custom-toggler .navbar-toggler {
   border-color: #fff;
 }
+
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -41,11 +42,13 @@ header {
   width: 100%;
   margin-bottom: 0;
 }
+
 .imagenPrincipalHome div h2 {
   color: #ffd7ab;
   text-shadow: 0 0 5px #222;
   font-size: 40px;
 }
+
 .imagenPrincipalHome div p {
   color: #ffd7ab;
   text-shadow: 0 0 5px #222;
@@ -97,57 +100,58 @@ header {
     margin-bottom: 0;
   }
 }
+
 @media only screen and (max-width: 991px) and (min-width: 768px) {
   .tituloTurismo {
     font-size: 22px;
     top: 100px;
     height: 50px;
   }
-
   .parrafoTurismo {
     height: 180px;
   }
-
   .imgCarrusel {
     height: 180px;
   }
 }
+
 @media only screen and (max-width: 767px) and (min-width: 480px) {
   .imgCarrusel {
     height: 300px;
   }
-
   .seccionUbicacionTuristica {
     height: 550px;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .imagenPrincipalHome {
     height: 300px;
     margin-bottom: 0;
   }
-
   .enlacesFooter ul li a {
     font-size: xx-small;
     padding: 5px;
   }
-
   .patrocinadores img {
     width: 30px;
     height: 30px;
     padding: 5px;
   }
 }
+
 @media only screen and (max-width: 479px) and (min-width: 360px) {
   .imgCarrusel {
     height: 220px;
   }
 }
+
 @media only screen and (max-width: 359px) {
   .seccionUbicacionTuristica {
     height: 600px;
   }
 }
+
 .mainTurismo {
   background-color: #ffd7ab;
   color: #5b1f00;
@@ -172,8 +176,8 @@ header {
 .formConsulta div {
   margin-bottom: 40px;
 }
+
 .formConsulta h2 {
   margin-bottom: 40px;
 }
-
 /*# sourceMappingURL=style.css.map */
