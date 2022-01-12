@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit:wght@100;200;300&display=swap');
+
 $color1: #cd966c;
 $color2: #5b1f00;
 $color3: #ffd7ab;
 $colorBlanco: #fff;
 $colorGrisOscuro: #222;
+$sombraGrisOscuro: 0 0 5px $colorGrisOscuro;
+
 *{
     margin: 0;
     padding: 0;
@@ -11,13 +14,6 @@ $colorGrisOscuro: #222;
 }
 body{
     width: 100%;
-}
-.tituloHeader{
-    font-size: xx-large;
-}
-header{
-    background-color: $color1;
-    color: $color2;
 }
 .navegador{
     background-color: $color2; 
@@ -42,28 +38,14 @@ header{
     margin-bottom: 0;
     div h2{
         color: $color3;
-        text-shadow: 0 0 5px $colorGrisOscuro;
+        text-shadow: $sombraGrisOscuro;
         font-size: 40px;
     }
     div p{
         color: $color3;
-        text-shadow: 0 0 5px $colorGrisOscuro;
+        text-shadow: $sombraGrisOscuro;
         font-size: 17px;
     }
-}
-.enlacesFooter ul li a{
-    font-size: small;
-    padding: 10px;
-}
-.patrocinadores img{
-    width: 50px;
-    height: 50px;
-    padding: 10px;
-}
-.pieDePagina{
-    width: 100%;
-    background-color: $color2;
-    padding-top: 10px;
 }
 .imgCarrusel{
     height: 260px;
@@ -117,15 +99,6 @@ header{
         height: 300px;
         margin-bottom: 0;
     }
-    .enlacesFooter ul li a{
-        font-size: xx-small;
-        padding: 5px;
-    }
-    .patrocinadores img{
-        width: 30px;
-        height: 30px;
-        padding: 5px;
-    }
 }
 @media only screen and (max-width:479px) and (min-width:360px){
     .imgCarrusel{
@@ -162,3 +135,6 @@ header{
         margin-bottom: 40px;
     }
 }
+
+@import "_header";
+@import "_footer";
